@@ -1,0 +1,2 @@
+E:\git\c-\BinarySearch\Debug\BinarySearch.exe
+E:\git\c-\BinarySearch\Debug\BinarySearch.pdb
