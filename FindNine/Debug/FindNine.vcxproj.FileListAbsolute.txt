@@ -1,0 +1,2 @@
+E:\git\c-\FindNine\Debug\FindNine.exe
+E:\git\c-\FindNine\Debug\FindNine.pdb
