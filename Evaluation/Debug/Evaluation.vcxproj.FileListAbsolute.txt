@@ -1,0 +1,2 @@
+E:\git\c-\Evaluation\Debug\Evaluation.exe
+E:\git\c-\Evaluation\Debug\Evaluation.pdb
