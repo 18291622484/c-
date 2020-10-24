@@ -1,0 +1,2 @@
+E:\git\c-\The first calculator\Debug\The first calculator.exe
+E:\git\c-\The first calculator\Debug\The first calculator.pdb
