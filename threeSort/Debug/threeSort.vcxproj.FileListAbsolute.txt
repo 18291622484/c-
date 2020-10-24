@@ -1,0 +1,2 @@
+E:\git\c-\threeSort\Debug\threeSort.exe
+E:\git\c-\threeSort\Debug\threeSort.pdb
