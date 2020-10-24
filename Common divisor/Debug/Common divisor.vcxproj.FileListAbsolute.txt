@@ -1,0 +1,2 @@
+E:\git\c-\Common divisor\Debug\Common divisor.exe
+E:\git\c-\Common divisor\Debug\Common divisor.pdb
