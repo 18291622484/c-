@@ -1,0 +1,2 @@
+E:\git\c-\2048Game\Debug\2048Game.exe
+E:\git\c-\2048Game\Debug\2048Game.pdb
