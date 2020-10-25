@@ -1,0 +1,10 @@
+﻿  ChangeNum.c
+E:\git\c-\ChangeNum\ChangeNum.c(16,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int **”
+E:\git\c-\ChangeNum\ChangeNum.c(16,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“int **”
+E:\git\c-\ChangeNum\ChangeNum.c(17,14): warning C4047: “函数”:“int *”与“int **”的间接级别不同
+E:\git\c-\ChangeNum\ChangeNum.c(17,12): warning C4024: “ChangeNum”: 形参和实参 1 的类型不同
+E:\git\c-\ChangeNum\ChangeNum.c(17,18): warning C4047: “函数”:“int *”与“int **”的间接级别不同
+E:\git\c-\ChangeNum\ChangeNum.c(17,16): warning C4024: “ChangeNum”: 形参和实参 2 的类型不同
+E:\git\c-\ChangeNum\ChangeNum.c(18,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+E:\git\c-\ChangeNum\ChangeNum.c(18,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int *”
+  ChangeNum.vcxproj -> E:\git\c-\ChangeNum\Debug\ChangeNum.exe
