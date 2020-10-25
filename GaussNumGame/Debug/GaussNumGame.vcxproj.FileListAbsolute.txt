@@ -1,0 +1,2 @@
+E:\git\c-\GaussNumGame\Debug\GaussNumGame.exe
+E:\git\c-\GaussNumGame\Debug\GaussNumGame.pdb
