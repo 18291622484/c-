@@ -1,0 +1,2 @@
+E:\git\c-\CountFactorial\Debug\CountFactorial.exe
+E:\git\c-\CountFactorial\Debug\CountFactorial.pdb
