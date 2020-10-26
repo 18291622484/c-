@@ -1,0 +1,2 @@
+E:\git\c-\AnyMultiplicationTables\Debug\AnyMultiplicationTables.exe
+E:\git\c-\AnyMultiplicationTables\Debug\AnyMultiplicationTables.pdb
