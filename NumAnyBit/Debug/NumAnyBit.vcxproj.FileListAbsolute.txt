@@ -1,0 +1,2 @@
+E:\git\c-\NumAnyBit\Debug\NumAnyBit.exe
+E:\git\c-\NumAnyBit\Debug\NumAnyBit.pdb
