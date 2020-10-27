@@ -1,0 +1,2 @@
+E:\git\c-\Hanoi\Debug\Hanoi.exe
+E:\git\c-\Hanoi\Debug\Hanoi.pdb
