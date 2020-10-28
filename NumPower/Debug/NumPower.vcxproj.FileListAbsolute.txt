@@ -1,0 +1,2 @@
+E:\git\c-\NumPower\Debug\NumPower.exe
+E:\git\c-\NumPower\Debug\NumPower.pdb
