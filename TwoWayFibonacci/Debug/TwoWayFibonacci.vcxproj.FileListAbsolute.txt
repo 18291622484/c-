@@ -1,0 +1,2 @@
+E:\git\c-\TwoWayFibonacci\Debug\TwoWayFibonacci.exe
+E:\git\c-\TwoWayFibonacci\Debug\TwoWayFibonacci.pdb
