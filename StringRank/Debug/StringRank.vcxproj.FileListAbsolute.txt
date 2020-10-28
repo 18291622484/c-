@@ -1,0 +1,2 @@
+E:\git\c-\StringRank\Debug\StringRank.exe
+E:\git\c-\StringRank\Debug\StringRank.pdb

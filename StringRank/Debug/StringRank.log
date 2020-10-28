@@ -1,0 +1,3 @@
+﻿  StringRank.c
+E:\git\c-\StringRank\StringRank.c(33): warning C4716: “StringRank”: 必须返回一个值
+  StringRank.vcxproj -> E:\git\c-\StringRank\Debug\StringRank.exe
