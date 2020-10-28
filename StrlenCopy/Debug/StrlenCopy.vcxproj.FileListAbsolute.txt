@@ -1,0 +1,2 @@
+E:\git\c-\StrlenCopy\Debug\StrlenCopy.exe
+E:\git\c-\StrlenCopy\Debug\StrlenCopy.pdb
