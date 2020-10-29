@@ -1,0 +1,2 @@
+E:\git\c-\FrogJumps\Debug\FrogJumps.exe
+E:\git\c-\FrogJumps\Debug\FrogJumps.pdb
