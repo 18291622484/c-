@@ -1,0 +1,2 @@
+E:\git\c-\MineClearance\Debug\MineClearance.exe
+E:\git\c-\MineClearance\Debug\MineClearance.pdb
