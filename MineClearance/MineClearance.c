@@ -115,14 +115,76 @@ void setSign() {
 //本程序中，最难的地方在于，若用户选到空白的地方，如何展示一片相连的区域，在查阅过资料之后，得到可以使用递归函数来解决
 //解决方法来自于CSDN上Jether大佬的一篇博客——扫雷游戏设计原理
 void accept(int x, int y) {
+    if (arr[x][y] != 0) {
+        return 0;
+    }
     if (arr[x][y] == 0) {
-        for (int i = x - 1; (i <= x + 1) && (i >= 0); i++) {
-            for (int j = y - 1; (j <= y + 1) && (j >= 0); j++) {
-                arr0[x - 1][y - 1] = arr[x][y];
-               /* if (arr[i][j] == 0) {
-                    accept(i, j);
-                }*/
+        if (x == 1 && y == 1) {
+            for (int i = 0; i <= 1; i++) {
+                for (int j =0; j <=1; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+2);
+                }
             }
+        }
+        else if (x == 9 && y == 9) {
+            for (int i = 7; i <= 8; i++) {
+                for (int j = 7; j <= 8; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        if (x == 1 && y == 9) {
+            for (int i = 0; i <= 1; i++) {
+                for (int j = 7; j <= 8; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else if (x == 9 && y == 1) {
+            for (int i = 7; i <= 8; i++) {
+                for (int j = 0; j <= 1; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else if (x == 1) {
+            for (int i = 0; i <= 1; i++) {
+                for (int j = y-2; j <= y; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else if (y == 1) {
+            for (int i = x-2; i <= x; i++) {
+                for (int j = 0; j <= 1; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else if (y == 9) {
+            for (int i = x-2; i <= x; i++) {
+                for (int j = 7; j <= 8; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else if(1<x<9&&1<y<9){
+            for (int i = x - 2; i <= x; i++) {
+                for (int j = y - 2; j <= y; j++) {
+                    arr0[i][j] = arr[i + 1][j + 1];
+                    //accept(i+1, j+1);
+                }
+            }
+        }
+        else {
+            return 0;
         }
     }
 }
