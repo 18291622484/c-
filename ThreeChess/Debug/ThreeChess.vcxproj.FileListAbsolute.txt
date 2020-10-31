@@ -1,0 +1,2 @@
+E:\git\c-\ThreeChess\Debug\ThreeChess.exe
+E:\git\c-\ThreeChess\Debug\ThreeChess.pdb
