@@ -90,13 +90,15 @@ void setMap() {
         system("cls");
         if (arr[setX()][setY()] == 0) {
             arr[setX()][setY()] = setNum();
+            printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d\t", arr[i][j]);
+                    printf("%d  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
                 }
+                printf("---+-----+-----+-----+\n");
             }
             break;
         }
@@ -156,13 +158,15 @@ void set5() {
         int y = setY();
         if (arr[x][y] == 0) {
             arr[x][y] = setNum();
+            printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d\t", arr[i][j]);
+                    printf("%d  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
                 }
+                printf("---+-----+-----+-----+\n");
             }
             break;
         }
@@ -222,13 +226,15 @@ void set2() {
         int y = setY();
         if (arr[x][y] == 0) {
             arr[x][y] = setNum();
+            printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d\t", arr[i][j]);
+                    printf("%d  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
                 }
+                printf("---+-----+-----+-----+\n");
             }
             break;
         }
@@ -288,13 +294,15 @@ void set1() {
         int y = setY();
         if (arr[x][y] == 0) {
             arr[x][y] = setNum();
+            printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d\t", arr[i][j]);
+                    printf("%d  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
                 }
+                printf("---+-----+-----+-----+\n");
             }
             break;
         }
@@ -354,13 +362,15 @@ void set3() {
         int y = setY();
         if (arr[x][y] == 0) {
             arr[x][y] = setNum();
+            printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d\t", arr[i][j]);
+                    printf("%d  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
                 }
+                printf("---+-----+-----+-----+\n");
             }
             break;
         }
