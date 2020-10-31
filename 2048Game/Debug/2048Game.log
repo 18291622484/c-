@@ -1,3 +1,0 @@
-﻿  2048Game.c
-E:\git\c-\2048Game\2048Game.c(473,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  2048Game.vcxproj -> E:\git\c-\2048Game\Debug\2048Game.exe
