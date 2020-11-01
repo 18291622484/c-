@@ -1,2 +1,0 @@
-E:\git\c-\BubbleSort\Debug\BubbleSort.exe
-E:\git\c-\BubbleSort\Debug\BubbleSort.pdb
