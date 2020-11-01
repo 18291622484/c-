@@ -1,0 +1,2 @@
+E:\git\c-\ExchangeArray\Debug\ExchangeArray.exe
+E:\git\c-\ExchangeArray\Debug\ExchangeArray.pdb

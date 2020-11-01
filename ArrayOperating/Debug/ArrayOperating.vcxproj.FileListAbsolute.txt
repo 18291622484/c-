@@ -1,0 +1,2 @@
+E:\git\c-\ArrayOperating\Debug\ArrayOperating.exe
+E:\git\c-\ArrayOperating\Debug\ArrayOperating.pdb
