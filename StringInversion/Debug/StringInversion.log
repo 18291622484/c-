@@ -1,2 +1,4 @@
 ﻿  StringInversion.c
+E:\git\c-\StringInversion\StringInversion.c(8,13): warning C4047: “return”:“int”与“char *”的间接级别不同
+E:\git\c-\StringInversion\StringInversion.c(18,13): warning C4047: “return”:“int”与“char *”的间接级别不同
   StringInversion.vcxproj -> E:\git\c-\StringInversion\Debug\StringInversion.exe
