@@ -1,0 +1,2 @@
+E:\git\c-\DifferentDigits\Debug\DifferentDigits.exe
+E:\git\c-\DifferentDigits\Debug\DifferentDigits.pdb
