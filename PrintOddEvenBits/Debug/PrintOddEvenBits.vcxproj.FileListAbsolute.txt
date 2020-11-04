@@ -1,0 +1,2 @@
+E:\git\c-\PrintOddEvenBits\Debug\PrintOddEvenBits.exe
+E:\git\c-\PrintOddEvenBits\Debug\PrintOddEvenBits.pdb
