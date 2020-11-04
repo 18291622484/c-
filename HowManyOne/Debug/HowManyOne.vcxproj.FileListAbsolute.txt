@@ -1,0 +1,2 @@
+E:\git\c-\HowManyOne\Debug\HowManyOne.exe
+E:\git\c-\HowManyOne\Debug\HowManyOne.pdb
