@@ -1,0 +1,5 @@
+﻿  MineClearance.c
+E:\git\c-\MineClearance\MineClearance.c(120,17): warning C4098: “accept”:“void”函数返回值
+E:\git\c-\MineClearance\MineClearance.c(188,21): warning C4098: “accept”:“void”函数返回值
+E:\git\c-\MineClearance\MineClearance.c(229,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  MineClearance.vcxproj -> E:\git\c-\MineClearance\Debug\MineClearance.exe
