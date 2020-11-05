@@ -31,9 +31,19 @@ int setY() {
 }
 
 //定义一个数组来创建地图
-int arr[4][4] = { 0 };
+char arr[4][4] = { 0 };
 //定义一个数组，用来和每一次操作之后的数组比较，若无变化，不生成随机数
-int arr0[4][4] = { 0 };
+char arr0[4][4] = { 0 };
+
+//给地图数组赋上空白格
+void Initialize() {
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            arr[i][j] = ' ';
+            arr0[i][j] = ' ';
+        }
+    }
+}
 
 //比较数组，操作前与操作后是否相等，若相等，不生成随机数，若不相等，则正常进行
 int compare() {
@@ -53,7 +63,7 @@ int full() {
     int n = 0;
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
-            if (arr[i][j] != 0) {
+            if (arr[i][j] != ' ') {
                 n++;
             }
         }
@@ -66,7 +76,7 @@ int isHave_2048() {
     int n = 0;
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
-            if (arr[i][j] == 2048) {
+            if (arr[i][j] == 2048 + '0') {
                 n++;
                 break;
             }
@@ -88,12 +98,12 @@ void give() {
 void setMap() {
     while (1) {
         system("cls");
-        if (arr[setX()][setY()] == 0) {
-            arr[setX()][setY()] = setNum();
+        if (arr[setX()][setY()] == ' ') {
+            arr[setX()][setY()] = setNum() + '0';
             printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d  |  ", arr[i][j]);
+                    printf("%c  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
@@ -109,16 +119,16 @@ void set5() {
     for (int i = 0; i < 4; i++) {
         int n = 0;
         for (int j = 0; ; ) {
-            if (arr[j][i] == 0) {
+            if (arr[j][i] == ' '&& j!=3) {
                 int k = j;
                 while (k < 3) {
                     arr[k][i] = arr[k + 1][i];
-                    arr[k + 1][i] = 0;
+                    arr[k + 1][i] = ' ';
                     k++;
                 }
                 n++;
             }
-            else if (arr[j][i] != 0) {
+            else if (arr[j][i] != ' ') {
                 j++;
                 n++;
             }
@@ -130,12 +140,14 @@ void set5() {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 3; j++) {
             if (arr[j][i] == arr[j + 1][i]) {
-                arr[j][i] = arr[j][i] + arr[j + 1][i];
-                arr[j + 1][i] = 0;
+                if (arr[j][i] != ' ') {
+                    arr[j][i] = (arr[j][i] + arr[j + 1][i]) + '0';
+                    arr[j + 1][i] = ' ';
+                }
                 int k = j + 1;
                 while (k < 3) {
                     arr[k][i] = arr[k + 1][i];
-                    arr[k + 1][i] = 0;
+                    arr[k + 1][i] = ' ';
                     k++;
                 }
             }
@@ -156,12 +168,12 @@ void set5() {
         system("cls");
         int x = setX();
         int y = setY();
-        if (arr[x][y] == 0) {
-            arr[x][y] = setNum();
+        if (arr[x][y] == ' ') {
+            arr[x][y] = setNum() + '0';
             printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d  |  ", arr[i][j]);
+                    printf("%c  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
@@ -177,16 +189,16 @@ void set2() {
     for (int i = 0; i < 4; i++) {
         int n = 0;
         for (int j = 3; ; ) {
-            if (arr[j][i] == 0 && j != 0) {
+            if (arr[j][i] == ' ' && j != 0) {
                 int k = j;
                 while (k > 0) {
                     arr[k][i] = arr[k - 1][i];
-                    arr[k - 1][i] = 0;
+                    arr[k - 1][i] = ' ';
                     k--;
                 }
                 n++;
             }
-            else if (arr[j][i] != 0) {
+            else if (arr[j][i] != ' ') {
                 j--;
                 n++;
             }
@@ -198,12 +210,14 @@ void set2() {
     for (int i = 0; i < 4; i++) {
         for (int j = 3; j > 0; j--) {
             if (arr[j][i] == arr[j - 1][i]) {
-                arr[j][i] = arr[j][i] + arr[j - 1][i];
-                arr[j - 1][i] = 0;
+                if (arr[j][i] != ' ') {
+                    arr[j][i] = (arr[j][i] + arr[j - 1][i]) + '0';
+                    arr[j - 1][i] = ' ';
+                }
                 int k = j - 1;
                 while (k > 0) {
                     arr[k][i] = arr[k - 1][i];
-                    arr[k - 1][i] = 0;
+                    arr[k - 1][i] = ' ';
                     k--;
                 }
             }
@@ -224,12 +238,12 @@ void set2() {
         system("cls");
         int x = setX();
         int y = setY();
-        if (arr[x][y] == 0) {
-            arr[x][y] = setNum();
+        if (arr[x][y] == ' ') {
+            arr[x][y] = setNum() + '0';
             printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d  |  ", arr[i][j]);
+                    printf("%c  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
@@ -245,7 +259,7 @@ void set1() {
     for (int i = 0; i < 4; i++) {
         int n = 0;
         for (int j = 0; ; ) {
-            if (arr[i][j] == 0 && j != 3) {
+            if (arr[i][j] == ' ' && j != 3) {
                 int k = j;
                 while (k < 3) {
                     arr[i][k] = arr[i][k + 1];
@@ -266,12 +280,14 @@ void set1() {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 3; j++) {
             if (arr[i][j] == arr[i][j + 1]) {
-                arr[i][j] = arr[i][j] + arr[i][j + 1];
-                arr[i][j + 1] = 0;
+                if (arr[i][j] != ' ') {
+                    arr[i][j] = (arr[i][j] + arr[i][j + 1]) + '0';
+                    arr[i][j + 1] = ' ';
+                }
                 int k = j + 1;
                 while (k < 3) {
                     arr[i][k] = arr[i][k + 1];
-                    arr[i][k + 1] = 0;
+                    arr[i][k + 1] = ' ';
                     k++;
                 }
             }
@@ -293,11 +309,11 @@ void set1() {
         int x = setX();
         int y = setY();
         if (arr[x][y] == 0) {
-            arr[x][y] = setNum();
+            arr[x][y] = setNum() + '0';
             printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d  |  ", arr[i][j]);
+                    printf("%c  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
@@ -313,16 +329,16 @@ void set3() {
     for (int i = 0; i < 4; i++) {
         int n = 0;
         for (int j = 3; ; ) {
-            if (arr[i][j] == 0 && j != 0) {
+            if (arr[i][j] == ' ' && j != 0) {
                 int k = j;
                 while (k > 0) {
                     arr[i][k] = arr[i][k - 1];
-                    arr[i][k - 1] = 0;
+                    arr[i][k - 1] = ' ';
                     k--;
                 }
                 n++;
             }
-            else if (arr[i][j] != 0) {
+            else if (arr[i][j] != ' ') {
                 j--;
                 n++;
             }
@@ -334,12 +350,14 @@ void set3() {
     for (int i = 0; i < 4; i++) {
         for (int j = 3; j > 0; j--) {
             if (arr[i][j] == arr[i][j - 1]) {
-                arr[i][j] = arr[i][j] + arr[i][j - 1];
-                arr[i][j - 1] = 0;
+                if (arr[i][j] != ' ') {
+                    arr[i][j] = arr[i][j] + arr[i][j - 1] + '0';
+                    arr[i][j - 1] = ' ';
+                }
                 int k = j - 1;
                 while (k > 0) {
                     arr[i][k] = arr[i][k - 1];
-                    arr[i][k - 1] = 0;
+                    arr[i][k - 1] = ' ';
                     k--;
                 }
             }
@@ -360,12 +378,12 @@ void set3() {
         system("cls");
         int x = setX();
         int y = setY();
-        if (arr[x][y] == 0) {
-            arr[x][y] = setNum();
+        if (arr[x][y] == ' ') {
+            arr[x][y] = setNum() + '0';
             printf("---+-----+-----+-----+\n");
             for (int i = 0; i < 4; i++) {
                 for (int j = 0; j < 4; j++) {
-                    printf("%d  |  ", arr[i][j]);
+                    printf("%c  |  ", arr[i][j]);
                     if (j == 3) {
                         printf("\n");
                     }
@@ -471,6 +489,7 @@ int again() {
 
 int main() {
     srand(time(0));
+    Initialize();
     while (1) {
         system("cls");
         int choose = menu();
@@ -505,5 +524,11 @@ int main() {
         }
     }
 _1:
+
+
+    /*char ch1 = '8';
+    char ch2 = '8';
+    ch1 = ch2 + ch1;
+    printf("%c %c\n", ch1, ch2);*/
     return 0;
 }
