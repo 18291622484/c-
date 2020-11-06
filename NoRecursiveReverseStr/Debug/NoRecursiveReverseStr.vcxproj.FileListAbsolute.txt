@@ -1,0 +1,2 @@
+E:\git\c-\NoRecursiveReverseStr\Debug\NoRecursiveReverseStr.exe
+E:\git\c-\NoRecursiveReverseStr\Debug\NoRecursiveReverseStr.pdb
