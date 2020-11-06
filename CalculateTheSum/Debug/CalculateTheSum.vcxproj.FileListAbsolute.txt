@@ -1,0 +1,2 @@
+E:\git\c-\CalculateTheSum\Debug\CalculateTheSum.exe
+E:\git\c-\CalculateTheSum\Debug\CalculateTheSum.pdb
