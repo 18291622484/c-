@@ -1,0 +1,2 @@
+E:\git\c-\GuessMurderer\Debug\GuessMurderer.exe
+E:\git\c-\GuessMurderer\Debug\GuessMurderer.pdb
