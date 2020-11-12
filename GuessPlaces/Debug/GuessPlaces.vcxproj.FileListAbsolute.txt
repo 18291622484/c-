@@ -1,0 +1,2 @@
+E:\git\c-\GuessPlaces\Debug\GuessPlaces.exe
+E:\git\c-\GuessPlaces\Debug\GuessPlaces.pdb
