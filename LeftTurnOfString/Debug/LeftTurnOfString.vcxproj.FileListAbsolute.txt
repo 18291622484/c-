@@ -1,0 +1,2 @@
+E:\git\c-\LeftTurnOfString\Debug\LeftTurnOfString.exe
+E:\git\c-\LeftTurnOfString\Debug\LeftTurnOfString.pdb
