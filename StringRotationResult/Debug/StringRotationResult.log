@@ -1,0 +1,3 @@
+﻿  StringRotationResult.c
+E:\git\c-\StringRotationResult\StringRotationResult.c(30): warning C4715: “change”: 不是所有的控件路径都返回值
+  StringRotationResult.vcxproj -> E:\git\c-\StringRotationResult\Debug\StringRotationResult.exe

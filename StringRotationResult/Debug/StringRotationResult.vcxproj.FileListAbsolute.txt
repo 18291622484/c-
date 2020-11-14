@@ -1,0 +1,2 @@
+E:\git\c-\StringRotationResult\Debug\StringRotationResult.exe
+E:\git\c-\StringRotationResult\Debug\StringRotationResult.pdb
