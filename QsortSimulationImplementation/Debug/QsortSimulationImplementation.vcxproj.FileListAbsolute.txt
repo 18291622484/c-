@@ -1,0 +1,2 @@
+E:\git\c-\QsortSimulationImplementation\Debug\QsortSimulationImplementation.exe
+E:\git\c-\QsortSimulationImplementation\Debug\QsortSimulationImplementation.pdb

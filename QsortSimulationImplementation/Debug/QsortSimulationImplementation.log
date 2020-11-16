@@ -1,0 +1,8 @@
+﻿  QsortSimulationImplementation.c
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(38,30): warning C4047: “函数”:“CMP”与“CMP (__cdecl *)(int *,int *)”的间接级别不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(38,24): warning C4024: “BubbleSort”: 形参和实参 3 的类型不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(43,32): warning C4047: “函数”:“CMP”与“CMP (__cdecl *)(int *,int *)”的间接级别不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(43,24): warning C4024: “BubbleSort”: 形参和实参 3 的类型不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(21): warning C4716: “Bubbdown”: 必须返回一个值
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(13): warning C4716: “Bubbup”: 必须返回一个值
+  QsortSimulationImplementation.vcxproj -> E:\git\c-\QsortSimulationImplementation\Debug\QsortSimulationImplementation.exe
