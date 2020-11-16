@@ -1,0 +1,14 @@
+﻿  QsortUsageExercise.c
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(38,49): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(38,49): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(38,49): warning C4028: 形参 2 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(45,58): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(45,58): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(45,58): warning C4028: 形参 2 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(52,52): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(52,52): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(52,52): warning C4028: 形参 2 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(59,51): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(59,51): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortUsageExercise\QsortUsageExercise.c(59,51): warning C4028: 形参 2 与声明不同
+  QsortUsageExercise.vcxproj -> E:\git\c-\QsortUsageExercise\Debug\QsortUsageExercise.exe

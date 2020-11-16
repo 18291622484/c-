@@ -1,0 +1,2 @@
+E:\git\c-\QsortUsageExercise\Debug\QsortUsageExercise.exe
+E:\git\c-\QsortUsageExercise\Debug\QsortUsageExercise.pdb
