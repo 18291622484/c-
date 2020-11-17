@@ -1,0 +1,2 @@
+E:\git\c-\PointerAdvancedTest\Debug\PointerAdvancedTest.exe
+E:\git\c-\PointerAdvancedTest\Debug\PointerAdvancedTest.pdb
