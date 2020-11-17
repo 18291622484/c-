@@ -1,8 +1,11 @@
 ﻿  QsortSimulationImplementation.c
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(38,30): warning C4047: “函数”:“CMP”与“CMP (__cdecl *)(int *,int *)”的间接级别不同
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(38,24): warning C4024: “BubbleSort”: 形参和实参 3 的类型不同
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(43,32): warning C4047: “函数”:“CMP”与“CMP (__cdecl *)(int *,int *)”的间接级别不同
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(43,24): warning C4024: “BubbleSort”: 形参和实参 3 的类型不同
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(21): warning C4716: “Bubbdown”: 必须返回一个值
-E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(13): warning C4716: “Bubbup”: 必须返回一个值
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(18,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(19,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(23,11): warning C4013: “memcpy”未定义；假设外部返回 int
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(39,31): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(39,31): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(39,31): warning C4028: 形参 2 与声明不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(44,34): warning C4090: “函数”: 不同的“const”限定符
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(44,34): warning C4028: 形参 1 与声明不同
+E:\git\c-\QsortSimulationImplementation\QsortSimulationImplementation.c(44,34): warning C4028: 形参 2 与声明不同
   QsortSimulationImplementation.vcxproj -> E:\git\c-\QsortSimulationImplementation\Debug\QsortSimulationImplementation.exe
