@@ -1,0 +1,2 @@
+E:\git\c-\strcatEmulatesTheImplementation\Debug\strcatEmulatesTheImplementation.exe
+E:\git\c-\strcatEmulatesTheImplementation\Debug\strcatEmulatesTheImplementation.pdb
