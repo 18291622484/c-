@@ -1,0 +1,5 @@
+﻿  strstrEmulateTheImplementation.c
+E:\git\c-\strstrEmulateTheImplementation\strstrEmulateTheImplementation.c(36,1): warning C4090: “初始化”: 不同的“const”限定符
+E:\git\c-\strstrEmulateTheImplementation\strstrEmulateTheImplementation.c(54,19): warning C4018: “<”: 有符号/无符号不匹配
+E:\git\c-\strstrEmulateTheImplementation\strstrEmulateTheImplementation.c(53,1): warning C4090: “初始化”: 不同的“const”限定符
+  strstrEmulateTheImplementation.vcxproj -> E:\git\c-\strstrEmulateTheImplementation\Debug\strstrEmulateTheImplementation.exe

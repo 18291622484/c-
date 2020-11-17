@@ -1,0 +1,2 @@
+E:\git\c-\strstrEmulateTheImplementation\Debug\strstrEmulateTheImplementation.exe
+E:\git\c-\strstrEmulateTheImplementation\Debug\strstrEmulateTheImplementation.pdb
