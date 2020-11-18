@@ -1,0 +1,2 @@
+E:\git\c-\strcpySimulationImplementation\Debug\strcpySimulationImplementation.exe
+E:\git\c-\strcpySimulationImplementation\Debug\strcpySimulationImplementation.pdb
