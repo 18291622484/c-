@@ -1,0 +1,3 @@
+﻿  strlenSimulationImplementation.c
+E:\git\c-\strlenSimulationImplementation\strlenSimulationImplementation.c(6,14): warning C4047: “return”:“size_t”与“void *”的间接级别不同
+  strlenSimulationImplementation.vcxproj -> E:\git\c-\strlenSimulationImplementation\Debug\strlenSimulationImplementation.exe
