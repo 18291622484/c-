@@ -1,0 +1,2 @@
+E:\git\c-\strcmpSimulationImplementation\Debug\strcmpSimulationImplementation.exe
+E:\git\c-\strcmpSimulationImplementation\Debug\strcmpSimulationImplementation.pdb

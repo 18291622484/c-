@@ -1,0 +1,3 @@
+﻿  strcmpSimulationImplementation.c
+E:\git\c-\strcmpSimulationImplementation\strcmpSimulationImplementation.c(6,14): warning C4047: “return”:“int”与“void *”的间接级别不同
+  strcmpSimulationImplementation.vcxproj -> E:\git\c-\strcmpSimulationImplementation\Debug\strcmpSimulationImplementation.exe
