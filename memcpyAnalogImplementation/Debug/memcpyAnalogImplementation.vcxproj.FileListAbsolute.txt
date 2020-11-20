@@ -1,0 +1,2 @@
+E:\git\c-\memcpyAnalogImplementation\Debug\memcpyAnalogImplementation.exe
+E:\git\c-\memcpyAnalogImplementation\Debug\memcpyAnalogImplementation.pdb
