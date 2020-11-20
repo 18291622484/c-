@@ -1,0 +1,3 @@
+﻿  memmoveAnalogImplementation.c
+E:\git\c-\memmoveAnalogImplementation\memmoveAnalogImplementation.c(16,21): warning C4018: “<”: 有符号/无符号不匹配
+  memmoveAnalogImplementation.vcxproj -> E:\git\c-\memmoveAnalogImplementation\Debug\memmoveAnalogImplementation.exe
