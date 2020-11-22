@@ -1,0 +1,2 @@
+E:\git\c-\strPiecewiseReverse\Debug\strPiecewiseReverse.exe
+E:\git\c-\strPiecewiseReverse\Debug\strPiecewiseReverse.pdb
