@@ -1,0 +1,2 @@
+E:\git\c-\TheAddressBook\Debug\TheAddressBook.exe
+E:\git\c-\TheAddressBook\Debug\TheAddressBook.pdb
