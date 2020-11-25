@@ -1,0 +1,2 @@
+E:\git\c-\atoiAnalogImplementation\Debug\atoiAnalogImplementation.exe
+E:\git\c-\atoiAnalogImplementation\Debug\atoiAnalogImplementation.pdb
