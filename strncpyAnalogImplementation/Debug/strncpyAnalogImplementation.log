@@ -1,0 +1,3 @@
+﻿  strncpyAnalogImplementation.c
+E:\git\c-\strncpyAnalogImplementation\strncpyAnalogImplementation.c(12,11): warning C4018: “<”: 有符号/无符号不匹配
+  strncpyAnalogImplementation.vcxproj -> E:\git\c-\strncpyAnalogImplementation\Debug\strncpyAnalogImplementation.exe

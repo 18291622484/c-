@@ -1,0 +1,2 @@
+E:\git\c-\strncpyAnalogImplementation\Debug\strncpyAnalogImplementation.exe
+E:\git\c-\strncpyAnalogImplementation\Debug\strncpyAnalogImplementation.pdb
