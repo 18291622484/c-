@@ -1,0 +1,2 @@
+E:\git\c-\strncatAnalogImplementation\Debug\strncatAnalogImplementation.exe
+E:\git\c-\strncatAnalogImplementation\Debug\strncatAnalogImplementation.pdb

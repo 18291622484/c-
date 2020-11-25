@@ -1,0 +1,4 @@
+﻿  strncatAnalogImplementation.c
+E:\git\c-\strncatAnalogImplementation\strncatAnalogImplementation.c(14,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\git\c-\strncatAnalogImplementation\strncatAnalogImplementation.c(23): warning C4715: “myStrncat”: 不是所有的控件路径都返回值
+  strncatAnalogImplementation.vcxproj -> E:\git\c-\strncatAnalogImplementation\Debug\strncatAnalogImplementation.exe
