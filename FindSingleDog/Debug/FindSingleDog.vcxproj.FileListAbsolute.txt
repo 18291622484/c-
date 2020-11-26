@@ -1,0 +1,2 @@
+E:\git\c-\FindSingleDog\Debug\FindSingleDog.exe
+E:\git\c-\FindSingleDog\Debug\FindSingleDog.pdb
