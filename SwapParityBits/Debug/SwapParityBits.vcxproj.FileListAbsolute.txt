@@ -1,0 +1,2 @@
+E:\git\c-\SwapParityBits\Debug\SwapParityBits.exe
+E:\git\c-\SwapParityBits\Debug\SwapParityBits.pdb
